@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三欄式卡片</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif; /* 設定字體 */
+            margin: 20px; /* 內邊距 */
+            line-height: 1.6; /* 行高 */
+        }
+
+        h1 {
+            font-weight: 700; /* 加粗標題 */
+        }
+
+        p {
+            font-weight: 400; /* 正常字重 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 大標題區 -->
+    <section class="container my-4">
+        <h1 class="pawfect-title">\ 最 Pawfect 的預訂體驗 /</h1>
+        <p class="pawfect-subtitle">預定流程直覺好上手</p>
+
+    <!-- 三欄式卡片區 -->    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <p class="card-order" style="color:#F6844D;">01</p>
+            <div class="card-icon mb-3">
+              <img src="images/choice icon.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">選擇理想保母</h5>
+              <p class="card-text">點選您的地址和日期，我們將根據您的需求以及用戶推薦，為您精選出最適合您寵物性格和偏好的專業保母。</p>
+            </div>
+          </div>
+        </div>
+    
+    <!-- 裝飾性圖標 -->
+    <div class="col-md-auto">
+        <img src="images/狗腳印.png" alt="裝飾性圖標" class="decorative-icon-1">
+    </div>
+
+    <!-- 第二張卡片 --> 
+        <div class="col-md-3">
+          <div class="card h-100">
+            <p class="card-order" style="color: #A9BD7E;">02</p>
+            <div class="card-icon mb-3">
+              <img src="images/reserve icon.png" class="card-img-top  img-fluid" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">快速預約</h5>
+              <p class="card-text">使用我們的網站快速選擇服務時間並完成安全預約。在付款前，與多位保母確認細節，透明定價，無隱藏費用，讓您預訂無憂。</p>
+            </div>
+          </div>
+        </div>
+    
+    <!-- 裝飾性圖標 -->
+    <div class="col-md-auto">
+        <img src="images/狗腳印.png" alt="裝飾性圖標" class="decorative-icon-2">
+    </div>
+
+    <!-- 第三張卡片 --> 
+        <div class="col-md-3">
+          <div class="card h-100">
+            <p class="card-order" style="color: #86A9C2;">03</p>
+            <div class="card-icon mb-3">
+              <img src="images/pay icon.png" class="card-img-top  img-fluid" alt="...">
+            </div>  
+            <div class="card-body">
+              <h5 class="card-title">確認與付款</h5>
+              <p class="card-text">確認細節並選擇保母，完成支付，隨時接收寵物更新。我們的客服隨時待命，確保您的寵物得到最佳照顧並提供即時幫助。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
